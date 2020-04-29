@@ -1,0 +1,55 @@
+Class documentation
+<---- javadoc command: ---->
+C:\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+11
+-classpath
+C:\BlueJ\lib\bluejcore.jar;C:\BlueJ\lib\junit-4.11.jar;C:\BlueJ\lib\hamcrest-core-1.3.jar;C:\BlueJ\lib\lang-stride.jar;C:\BlueJ\lib\javafx\lib\javafx.base.jar;C:\BlueJ\lib\javafx\lib\javafx.controls.jar;C:\BlueJ\lib\javafx\lib\javafx.fxml.jar;C:\BlueJ\lib\javafx\lib\javafx.graphics.jar;C:\BlueJ\lib\javafx\lib\javafx.media.jar;C:\BlueJ\lib\javafx\lib\javafx.properties.jar;C:\BlueJ\lib\javafx\lib\javafx.swing.jar;C:\BlueJ\lib\javafx\lib\javafx.web.jar;D:\Coursera_Object_Oriented_Programming_in_Java-master\SPS_week1\perimeter_quiz
+-d
+D:\Coursera_Object_Oriented_Programming_in_Java-master\SPS_week1\perimeter_quiz\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+D:\Coursera_Object_Oriented_Programming_in_Java-master\SPS_week1\perimeter_quiz\PerimeterAssignmentRunner.java
+<---- end of javadoc command ---->
+Loading source file D:\Coursera_Object_Oriented_Programming_in_Java-master\SPS_week1\perimeter_quiz\PerimeterAssignmentRunner.java...
+Constructing Javadoc information...
+D:\Coursera_Object_Oriented_Programming_in_Java-master\SPS_week1\perimeter_quiz\PerimeterAssignmentRunner.java:5: error: cannot find symbol
+    public int getNumPoints (Shape s) {
+                             ^
+  symbol:   class Shape
+  location: class PerimeterAssignmentRunner
+D:\Coursera_Object_Oriented_Programming_in_Java-master\SPS_week1\perimeter_quiz\PerimeterAssignmentRunner.java:13: error: cannot find symbol
+    public double getAverageLength(Shape s) {
+                                   ^
+  symbol:   class Shape
+  location: class PerimeterAssignmentRunner
+D:\Coursera_Object_Oriented_Programming_in_Java-master\SPS_week1\perimeter_quiz\PerimeterAssignmentRunner.java:21: error: cannot find symbol
+    public double getLargestSide(Shape s) {
+                                 ^
+  symbol:   class Shape
+  location: class PerimeterAssignmentRunner
+D:\Coursera_Object_Oriented_Programming_in_Java-master\SPS_week1\perimeter_quiz\PerimeterAssignmentRunner.java:36: error: cannot find symbol
+    public double getLargestX(Shape s) {
+                              ^
+  symbol:   class Shape
+  location: class PerimeterAssignmentRunner
+D:\Coursera_Object_Oriented_Programming_in_Java-master\SPS_week1\perimeter_quiz\PerimeterAssignmentRunner.java:98: error: cannot find symbol
+    public double getPerimeter (Shape s) {
+                                ^
+  symbol:   class Shape
+  location: class PerimeterAssignmentRunner
+D:\Coursera_Object_Oriented_Programming_in_Java-master\SPS_week1\perimeter_quiz\PerimeterAssignmentRunner.java:1: error: package edu.duke does not exist
+import edu.duke.*;
+^
+6 errors
